@@ -1,0 +1,72 @@
+/* Basic styles for the Latest News page */
+
+body {
+    font-family: Arial, sans-serif; /* Sets a clean and simple font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Light gray background for a soft look */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white; /* White text for visibility */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555; /* Darker shade when hovered over */
+}
+
+/* Container for the content */
+.container {
+    width: 80%; /* Keeps content well-centered */
+    margin: 20px auto; /* Centers content on the page */
+    background: white; /* White background for contrast */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+/* News Article Styling */
+.article {
+    margin-bottom: 20px; /* Adds space between articles */
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd; /* Light gray separator between articles */
+}
+
+.article h2 {
+    color: #333; /* Dark text for headings */
+}
+
+.article img {
+    width: 100%; /* Makes images responsive */
+    max-height: 300px; /* Limits height */
+    object-fit: cover; /* Ensures the image covers the space properly */
+}
+
+.article p {
+    font-size: 16px; /* Comfortable reading size */
+    color: #555; /* Slightly lighter than black for easy reading */
+}
+/* Logo styling */
+.logo {
+    height: 50px; /* Adjust size */
+    width: auto; /* Keep aspect ratio */
+    margin-right: 20px; /* Space between logo and links */
+    border-radius: 5px; /* Optional rounded edges */
+}
+
+/* Style for the logo */
+.logo {
+    position: absolute; /* Keeps it separate from the nav links */
+    left: 20px; /* Moves logo to the left */
+    height: 40px; /* Adjust size */
+    width: auto; /* Keeps aspect ratio */
+}
